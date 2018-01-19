@@ -1,0 +1,302 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+.test{
+	background: pink;
+	height: 100px;
+}
+
+nav{
+	background:#a81f00;
+}
+.center{
+	width:960px;
+	margin: auto;
+}
+nav ul{
+	float:right;
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+	display: block;
+}
+nav li{
+	list-style: none;
+	float: left;
+}
+img{
+	display: block;
+}
+nav a{
+	display: block;
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+	height: 44px;
+	line-height: 44px;
+	margin-left:24px;
+}
+nav .active-menu{
+	background:#000000;
+	padding:0 18px;
+}
+header{
+	background:#e5e5e5;
+	border-top:2px solid#fff;
+	padding: 46px;
+	 
+}
+.logo{
+	float: left;
+}
+.social{
+	float: right;
+}
+.social a{
+	float: left;
+	margin-left:12px;
+	height: 37px;
+	overflow: hidden;
+	 
+}
+.social a img{
+	transition: 1s;
+}
+.social a:hover img{
+	margin-top: -36px;
+	transition: 1s;
+}
+.banner{
+	background:url(../images/bg.png) 0 0 no-repeat;
+	background-size: 100%
+}
+.img{
+	display: block;
+	float: left;
+	margin-top:33px;
+	margin-left: 38px;
+
+}
+.our-product{
+	float: left;
+	padding: 51px 0 0 0;
+	margin-left:44px;
+}
+.our-product ul{
+	margin:9px 0 0 16px;
+	padding: 0;
+	margin-left: 34px;
+}
+.our-product li{
+	list-style: none;
+	font-size: 18px;
+	color:#fff;
+	background:url(../images/b.png) 3px 2px no-repeat;
+	text-decoration: underline;
+	margin-top:7px;
+	padding-left:35px;
+
+}
+.btn{
+	display: inline-block;
+	color:#ffffff;
+	background:#b33b20 url(../images/p.png) 12px 9px no-repeat;
+	padding-left:40px;
+	padding-right: 15px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 25px;
+	border-radius:18px;
+	margin-left: 35px;
+	text-decoration: none;
+}
+main{
+	background:#ffffff;
+	margin-top:53px;
+	text-align: center;
+
+}
+main h1{
+	margin:19px;
+	font-size: 46px;
+	color: #a81f00;
+	font-weight: normal;
+}
+main p{
+	margin:0;
+	font-size: 20px;
+	color: #0a0101;
+	line-height: 28px;
+}
+.btn-grey{
+	background-color:#848484;
+}
+.three{
+	background:#ffffff;
+	margin-top:40px;
+}
+.three .center{
+	border-top: 1px dashed#737373;
+}
+.first{
+	float: left;
+	padding: 36px 0 0 0;
+}
+.first.middle{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-left: 1px dashed#737373;
+	border-right: 1px dashed#737373;
+}
+.first img{
+	float: left;
+}
+.first div{
+	float: left;
+	margin-left: 7px;
+}
+.first h4{
+	color: #a81f00;
+	font-size:30px;
+	margin:0 12px 0 25px;
+}
+.first p{
+	color: #000000;
+	font-size: 18px;
+	margin-left:22px;
+	margin:7px 12px 0 25px;
+}
+footer{
+	background:#e5e5e5;
+	margin-top: 44px;
+	border-top:2px solid#b7b7b7;
+	padding-top:36px;
+
+}
+footer .center{
+	border-bottom:1px dashed#919191;
+	padding-bottom: 35px;
+}
+.fleft{
+	float: left;
+	margin-right: 51px;
+}
+.fleft h3{
+	margin: 0;
+	color: #a81f00;
+	font-size: 24px;
+	text-decoration: underline;
+
+}
+.fleft ul{
+	float: left;
+	margin:23px 0 0 0;
+	padding: 0;
+}
+.fleft .leftul{
+	margin-right: 30px;
+}
+.fleft li{
+	list-style: none;
+	margin-top: 7px;
+}
+.fleft a{
+	display: block;
+	color: #007843;
+	font-size: 14px;
+	margin: 0;
+}
+.fright{
+	float:left;
+}
+.hoffice{
+	margin: 0;
+}
+.hoffice h3{
+	color: #007843;
+	font-size: 16px;
+	margin:4px;
+}
+.hoffice p{
+	margin: 0;
+	font-size: 14px;
+	color: #2c2c2c;
+	line-height:22px;
+}
+.fright p a{
+	text-decoration: none;
+	color:#0e1310;
+	display: inline-block;
+}
+.fright p a:hover{
+	color: #267d4b; 
+}
+.boffice{
+
+}
+.boffice div{
+	float: left;
+}
+.boffice .boffice-left{
+	margin-right: 30px;
+}
+
+.boffice h3{
+	margin:20px 0 0 0;
+	font-size: 14px;
+	color: #a81f00;
+}
+.boffice p{
+	margin:8px 0 0 0;
+	font-size:12px;
+	color: #202020;
+	line-height:19px;
+}
+.boffice p a{
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+}
+.boffice p a:hover{
+	color:#a81f00;
+}
+
+
+
+
+.copy-right{
+	background:#e5e5e5;
+	padding: 20px 40px;
+}
+.all-right{
+	float: left;
+}
+.all-right p{
+	float: left;
+	color: #2c2c2c;
+	font-size:12px;
+	margin: 0;
+	margin-right: 5px;
+}
+.all-right a{
+	float:left;
+	height: 22px;
+	margin-right:5px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.all-right a img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.copy-right strong{
+	float: right;
+	margin: 0;
+	margin-right: 34px;
+}
